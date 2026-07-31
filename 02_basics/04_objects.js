@@ -53,8 +53,36 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+const course = {
+    coursename: "Js",
+    price: "899",
+    courseInstructuor: "Tomojit"
+}
+// Destructuring assignment is a JavaScript syntax introduced in ES6 that allows you to unpack values from arrays or properties from objects into distinct variables in a clean, concise way
 
 
+const {courseInstructuor: instructor} = course // short method for extracting
 
+// console.log(courseInstructuor);
+// console.log(instructor)
+
+
+// JSON
+
+// {
+//     "name": "Tomojit",      // ignoring syntax just for understanding
+//     "coursename": "Js"
+//     "price": "777"
+// }
+
+// [] sometimes we get api in array also not just objects
+
+[
+    {},
+    {},
+    {}
+]
+
+// we can also get object within arrays
 
 
